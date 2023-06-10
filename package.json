@@ -3,11 +3,20 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "echo-server": "laravel-echo-server start"
     },
     "devDependencies": {
+        "@popperjs/core": "^2.11.6",
         "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^0.7.5",
+        "sass": "^1.56.1",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "laravel-echo": "^1.15.1",
+        "pusher-js": "^8.0.2",
+        "socket.io-client": "^4.6.2"
     }
 }
